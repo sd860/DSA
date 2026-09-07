@@ -1,5 +1,4 @@
 package prime;
-
 public class PrimeNumber {
     public static int solve(int A) {
         int x = 0;
@@ -17,8 +16,7 @@ public class PrimeNumber {
         return 0;
     }
     public static void main(String[] args) {
-        int A = 7;
-
+        int A = 23567;
         System.out.println(solve(A));
     }
 }
