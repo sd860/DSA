@@ -1,6 +1,6 @@
 package prefixsum;
 import java.util.ArrayList;
-public class InLine {
+public class InPlace {
     public static ArrayList<Integer> solve(ArrayList<Integer> A) {
         for (int i = 1; i < A.size(); i++) {
             A.set(i, A.get(i) + A.get(i - 1));
